@@ -78,3 +78,10 @@ console.log('sortedAges: ', sortedAges)
 console.log('sortedAgesDesc: ', sortedAgesDesc)
 
 // reduce
+// get total for all ages
+const ageSum = ages.reduce((total, age) => total + age, 0)
+console.log('ageSum: ', ageSum)
+
+// get total years for all companies
+const totalYears = companies.reduce((total, company) => total + (company.end - company.start), 0)
+console.log('totalYears: ', totalYears)
