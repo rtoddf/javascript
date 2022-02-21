@@ -1,0 +1,5 @@
+why write tests???
+typos
+confidence
+
+unit tests - testing smallest units of code
