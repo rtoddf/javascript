@@ -1,0 +1,30 @@
+why write tests???
+typos
+confidence
+
+unit tests - testing smallest units of code
+
+node name of file to run locally
+
+Extensions:
+Live Server
+Prettier - Code Formatter
+GitLens
+
+Testing Matchers:
+toBe() - used for primitive types
+not.toBe()
+toBeNull()
+toEqual() - used for arrays or objects
+toBeLessThan
+toBeLessThanorEqual
+tobeGreaterThanorEqual
+not.toMatch - regex
+toMatch - regex
+
+check for TRUTHY & FALSY VALUES
+toBeNull matches only null
+toBeUndefined matches only undefined
+toBeDefined is the opposite of toBeUndefined
+toBeTruthy matches anything that an if statement treats as true
+toBeFalsy matches anything that an if statement treats as false
